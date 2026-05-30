@@ -276,11 +276,15 @@ Seluruh hasil ETL kemudian diekspor ke dalam file CSV agar dapat digunakan kemba
 ⭐ Star Schema
 
 <p align="justify">
-Data warehouse pada aplikasi PANTAU menggunakan pendekatan Star Schema untuk mendukung proses analisis data dan visualisasi dashboard analytics. Struktur ini terdiri dari tabel fakta sebagai pusat data transaksi yang terhubung dengan tabel dimensi seperti produk, customer, lokasi, promosi, dan waktu.
+Data warehouse pada aplikasi PANTAU menggunakan pendekatan Star Schema untuk mendukung proses analisis data dan visualisasi dashboard analytics. Struktur ini terdiri dari tabel fakta sebagai pusat data analisis yang terhubung dengan tabel dimensi seperti produk, customer, lokasi, promosi, dan waktu.
 </p>
 
 <p align="justify">
-Pendekatan Star Schema dipilih karena lebih sederhana, mudah dipahami, dan mempercepat proses query analytics pada dashboard Business Intelligence. Selain <b>fact_sales</b>, sistem juga memiliki tabel fakta tambahan seperti inventory, logistic, dan seasonal planning untuk mendukung monitoring operasional dan forecasting bisnis.
+Penerapan Star Schema pada sistem ini dilakukan berdasarkan proses bisnis. Hal ini karena setiap dataset memiliki konteks dan grain yang berbeda, seperti sales untuk transaksi penjualan, inventory untuk kondisi stok, logistics untuk pengiriman, dan seasonal planning untuk perencanaan bisnis. Dengan pendekatan ini, setiap proses bisnis memiliki tabel fakta masing-masing yang terhubung dengan dimensi yang relevan, sehingga struktur data tetap rapi, mudah dipahami, dan tidak memaksakan seluruh data ke dalam satu tabel fakta besar.
+</p>
+
+<p align="justify">
+Pendekatan ini dipilih karena lebih sederhana, mudah dipahami, dan mendukung proses query analytics pada dashboard Business Intelligence. <b>fact_sales</b> digunakan sebagai tabel fakta utama untuk analisis penjualan, sedangkan tabel fakta tambahan seperti inventory, logistics, promotion, dan seasonal planning digunakan untuk mendukung monitoring operasional, evaluasi promosi, serta forecasting bisnis.
 </p>
 
 ---
