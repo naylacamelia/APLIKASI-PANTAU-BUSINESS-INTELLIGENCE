@@ -85,6 +85,7 @@ Project ini bertujuan untuk mengimplementasikan sistem Business Intelligence pad
 ## 📶 𝐏𝐫𝐨𝐬𝐞𝐬 𝐄𝐓𝐋 (𝐄𝐱𝐭𝐫𝐚𝐜𝐭, 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦, 𝐋𝐨𝐚𝐝)
 
 ** Link Notebook Google Colab: **
+
 [Klik di sini untuk membuka Notebook Implementasi ETL PANTAU](https://colab.research.google.com/drive/1OgAzt1Yc1ARuLOzE-sa1K0ZL6Mk8g-nI?usp=sharing)
 
 
