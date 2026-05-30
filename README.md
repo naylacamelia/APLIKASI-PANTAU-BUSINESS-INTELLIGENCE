@@ -334,7 +334,6 @@ Digunakan untuk analisis program promosi berdasarkan produk, cabang, periode pro
 <p align="center">
   <img width="75%" alt="WhatsApp Image 2026-05-30 at 21 30 40" src="https://github.com/user-attachments/assets/645aef54-6ff6-426f-8696-b0bf7359a4d4" />
 
-  <img src=idth="75%"/>
 </p>
 
 ---
