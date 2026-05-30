@@ -1,4 +1,3 @@
-
 #  𝐔A𝐒 𝐁𝐔𝐒𝐈𝐍𝐄𝐒𝐒 𝐈𝐍𝐓𝐄𝐋𝐋𝐈𝐆𝐄𝐍𝐂𝐄 - 𝐏𝐀𝐍𝐓𝐀𝐔 📱
 
 
@@ -20,8 +19,8 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a65c1c10-f1a5-4532-93d1-bd910e7ca1fe"  width="32%">
-  <img src="https://github.com/user-attachments/assets/ef3d2e66-a8ba-4496-b251-3a0b1b04f70e"width="32%">
+  <img src="https://github.com/user-attachments/assets/4b280123-3d66-4806-9162-a3d010c3abcd" width="32%">
+  <img src="https://github.com/user-attachments/assets/33dcd754-2983-45ed-9a9e-6a54c361349b" width="32%">
 </p>
 
 <div align="center">
@@ -59,7 +58,7 @@ Project ini bertujuan untuk mengimplementasikan sistem Business Intelligence pad
 
 | Isrina Luthfiah | Nayla Camelia Indraswari |Muhammad Sadikin Samir |
 |---------------|------------|------|
-| <div align="center"><img src="https://github.com/user-attachments/assets/50351347-5da8-41ec-89b8-4958d80b9d10"   width="200"></div> | <div align="center"><img src="https://github.com/user-attachments/assets/e2e91fb9-5571-4255-9105-149632ebeafb" width="215"></div> | <div align="center"><img src="https://github.com/user-attachments/assets/0179b0cc-414d-4df4-a6f7-0c0ffa5836aa" width="250"></div> |
+| <div align="center"><img src="https://github.com/user-attachments/assets/7c95c77d-baab-47dc-9258-b061782b3612"   width="200"></div> | <div align="center"><img src="https://github.com/user-attachments/assets/a3660f80-ddb3-4bf3-9f01-9735124c842b" width="215"></div> | <div align="center"><img src="https://github.com/user-attachments/assets/31bef7e6-b00a-4f90-9bc7-ea20ca313fea" width="250"></div> |
 | <div align="center">2409116003</div> | <div align="center">2409116009</div> | <div align="center">2409116031</div> | 
 | <div align="center">Sistem Informasi A '24</div> | <div align="center">Sistem Informasi A '24</div> | <div align="center">Sistem Informasi A '24</div> | <div align="center">Sistem Informasi A '24</div> |
 | <div align="center"><a href="https://github.com/rinaaluthfiah"><img src="https://img.shields.io/badge/GitHub-Isrina-grey?style=for-the-badge&logo=github"></a></div> | <div align="center"><a href="https://github.com/naylacamelia"><img src="https://img.shields.io/badge/GitHub-Nayla-grey?style=for-the-badge&logo=github"></a></div> | <div align="center"><a href="https://github.com/Sadikinz"><img src="https://img.shields.io/badge/GitHub-Sadikin-grey?style=for-the-badge&logo=github"></a></div> |
@@ -84,6 +83,12 @@ Project ini bertujuan untuk mengimplementasikan sistem Business Intelligence pad
 ---
 
 ## 📶 𝐏𝐫𝐨𝐬𝐞𝐬 𝐄𝐓𝐋 (𝐄𝐱𝐭𝐫𝐚𝐜𝐭, 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦, 𝐋𝐨𝐚𝐝)
+
+ Link Notebook Google Colab: 
+
+[Klik di sini untuk membuka Notebook Implementasi ETL PANTAU](https://colab.research.google.com/drive/1OgAzt1Yc1ARuLOzE-sa1K0ZL6Mk8g-nI?usp=sharing)
+
+
 <p align="justify">
 Pada aplikasi PANTAU (Platform Analitik & Tata Kelola UMKM), proses ETL (Extract, Transform, Load) merupakan tahapan utama dalam membangun sistem Business Intelligence dan data warehouse. Proses ini digunakan untuk mengintegrasikan berbagai data operasional UMKM agar menjadi lebih terstruktur, konsisten, dan siap digunakan dalam proses analisis bisnis serta visualisasi dashboard analytics.Data yang digunakan berasal dari beberapa dataset retail yang mencakup transaksi penjualan, data produk, pelanggan, inventory, logistik, promosi, dan seasonal planning. Seluruh data tersebut diproses menggunakan Python dan library Pandas melalui tiga tahapan utama, yaitu extract, transform, dan load.
 </p>
@@ -128,7 +133,14 @@ Tahap <b>Transform</b> dilakukan untuk membersihkan dan mengolah data mentah men
 
 ---
 
-### 🧹 1. Penanganan Nilai Duplikat
+
+### 🗃️ 1. Data Understanding dan Data Profiling 
+
+Tahap ini dilakukan untuk memahami kondisi awal dataset sebelum transformasi. Pada tahap ini dilakukan pengecekan terhadap 
+dataset kotor untuk menghitung jumlah baris, jumlah kolom, jumlah baris duplikat, dan total nilai kosong. 
+
+
+### 🧹 2. Penanganan Nilai Duplikat
 
 Tahap ini dilakukan untuk menghapus data duplikat agar tidak terjadi perhitungan ganda pada proses analisis penjualan, inventory, customer, maupun logistik.
 
@@ -139,7 +151,7 @@ Tahap ini dilakukan untuk menghapus data duplikat agar tidak terjadi perhitungan
 
 ---
 
-### 📅 2. Parsing Kolom Tanggal
+### 📅 3. Parsing Kolom Tanggal
 
 Kolom tanggal dikonversi ke format datetime agar dapat digunakan untuk analisis berbasis waktu seperti tren penjualan dan forecasting.
 
@@ -151,7 +163,7 @@ Kolom tanggal dikonversi ke format datetime agar dapat digunakan untuk analisis 
 
 ---
 
-### 🔢 3. Konversi Tipe Data Numerik
+### 🔢 4. Konversi Tipe Data Numerik
 
 Tahap ini dilakukan untuk memastikan kolom numerik dapat digunakan dalam proses perhitungan dan analisis data.
 
@@ -163,7 +175,7 @@ Tahap ini dilakukan untuk memastikan kolom numerik dapat digunakan dalam proses 
 
 ---
 
-### 📝 4. Pembersihan Kolom Teks
+### 📝 5. Pembersihan Kolom Teks
 
 Data teks dibersihkan dari nilai kosong dan spasi berlebih agar lebih konsisten saat digunakan dalam proses analisis.
 
@@ -177,20 +189,6 @@ Data teks dibersihkan dari nilai kosong dan spasi berlebih agar lebih konsisten 
 ----
 
 
-
-### ✅ 5. Validasi Awal Data
-
-<p align="justify">
-Pada tahap ini dilakukan validasi awal untuk memastikan bahwa setiap tabel memiliki kolom-kolom penting yang dibutuhkan dalam proses ETL. Validasi ini penting karena jika terdapat kolom utama yang hilang, maka proses pembentukan data warehouse dan data mart dapat terganggu.
-</p>
-
-
-✨ Validasi dilakukan untuk memastikan:
-- Struktur data sesuai
-- Kolom utama tersedia
-- Data siap diproses ke tahap data warehouse
-
----
 
 ### 🗂️ 6. Pembentukan Tabel Dimensi
 
@@ -212,24 +210,10 @@ Tabel dimensi digunakan untuk menyimpan informasi deskriptif yang menjadi sudut 
 - Analisis promosi
 - Analisis berbasis waktu
 
-------
-
-### 📆 7. Pembentukan Dimensi Tanggal
-
-<p align="justify">
-Dimensi tanggal (<b>dim_date</b>) digunakan untuk menyimpan informasi waktu secara terstruktur agar data dapat dianalisis berdasarkan hari, bulan, kuartal, maupun tahun. Dalam Business Intelligence, dimensi tanggal sangat penting karena sebagian besar dashboard membutuhkan analisis tren dari waktu ke waktu.
-</p>
-
-
-✨ Dimensi tanggal digunakan untuk:
-- Analisis tren revenue
-- Analisis bulanan dan tahunan
-- Forecasting penjualan
-- Dashboard analytics berbasis waktu
 
 ----
 
-### 📊 8. Pembentukan Tabel Fakta
+### 📊 7. Pembentukan Tabel Fakta
 
 <p align="justify">
 Tabel fakta merupakan tabel utama dalam data warehouse yang digunakan untuk menyimpan data aktivitas bisnis dan metrik numerik yang dapat dihitung. Pada proyek PANTAU, tabel fakta digunakan untuk menyimpan data penjualan, inventory, logistik, promosi, dan seasonal planning.
@@ -243,7 +227,7 @@ Tabel fakta merupakan tabel utama dalam data warehouse yang digunakan untuk meny
 
 ----
 
-### 📈 9. Pembentukan Data Mart
+### 📈 8. Pembentukan Data Mart
 
 <p align="justify">
 Data mart merupakan tabel ringkasan hasil olahan dari data warehouse yang digunakan sebagai sumber utama dashboard analytics pada aplikasi <b>PANTAU</b>. Data mart dibentuk agar proses visualisasi data dan analisis bisnis dapat dilakukan dengan lebih cepat, terstruktur, dan sesuai kebutuhan setiap dashboard.
@@ -397,11 +381,10 @@ Selain membantu proses monitoring, insight bisnis pada aplikasi PANTAU juga dapa
 
 <br>
 
-Made with ❤️ using Flutter, Supabase, and Python
+Made with ❤️ Kelompok 20
 
 <br><br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-0b35d91f-16e5-4bdb-bc0f-5b5f6f8e5b8c.gif">
 
 </div>
-
