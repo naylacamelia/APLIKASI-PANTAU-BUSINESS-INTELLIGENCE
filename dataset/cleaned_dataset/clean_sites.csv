@@ -1,0 +1,51 @@
+site_id,site_name,site_format,region,city,state,store_size,open_date,status
+JI0Y,Smart Mumbai,Digital,North,Mumbai,Maharashtra,6041,2015-05-03,Active
+VUZZ,Digital Ahmedabad,Fresh,North,Ahmedabad,Gujarat,19719,2021-08-10,Inactive
+PKH1,Smart Mumbai,Smart,North,Mumbai,Maharashtra,17449,2016-02-01,Inactive
+30T9,Digital Hubli,Smart,South,Hubli,Karnataka,23089,2018-04-15,Inactive
+CX19,Fresh New Delhi,Smart,North,New Delhi,Delhi,17455,2018-02-12,Inactive
+MYZY,Smart Bangalore,Fresh,South,Bangalore,Karnataka,22502,2023-03-06,Active
+J7YH,Trends Surat,Smart,South,Surat,Gujarat,12505,2015-05-12,Inactive
+H75L,Digital Coimbatore,Digital,West,Coimbatore,Tamil Nadu,26064,2020-02-23,Active
+0T0P,Digital Bangalore,Trends,West,Bangalore,Karnataka,12186,2016-07-20,Inactive
+FFYV,Digital Mumbai,Digital,West,Mumbai,Maharashtra,24526,2020-04-01,Inactive
+ZYTJ,Trends New Delhi,Smart,North,New Delhi,Delhi,14617,2019-11-16,Active
+5JSG,Smart Chennai,Trends,North,Chennai,Tamil Nadu,25937,2020-09-10,Active
+T2TA,Trends Surat,Digital,West,Surat,Gujarat,5638,2016-04-03,Inactive
+IUC0,Smart Bangalore,Fresh,West,Bangalore,Karnataka,9207,2022-05-26,Inactive
+SV87,Fresh New Delhi,Trends,South,New Delhi,Delhi,18074,2022-07-14,Inactive
+EIMV,Fresh Madurai,Fresh,South,Madurai,Tamil Nadu,5235,2015-10-18,Active
+4CIY,Fresh Ahmedabad,Fresh,West,Ahmedabad,Gujarat,28702,2021-05-27,Inactive
+GDPP,Digital Surat,Smart,South,Surat,Gujarat,27064,2022-04-30,Active
+M5IG,Digital Pune,Fresh,North,Pune,Maharashtra,18824,2017-01-21,Inactive
+P5TB,Smart Chennai,Smart,West,Chennai,Tamil Nadu,29692,2017-08-26,Active
+HOCN,Digital Coimbatore,Trends,South,Coimbatore,Tamil Nadu,19909,2018-03-14,Inactive
+GHC0,Smart New Delhi,Trends,West,New Delhi,Delhi,6873,2015-07-25,Inactive
+8CGV,Fresh New Delhi,Digital,West,New Delhi,Delhi,8928,2021-05-22,Active
+CXUL,Trends New Delhi,Fresh,North,New Delhi,Delhi,26945,2023-01-12,Inactive
+EXQ7,Smart Surat,Smart,South,Surat,Gujarat,20017,2021-12-19,Active
+SEMC,Fresh Nagpur,Trends,West,Nagpur,Maharashtra,14338,2016-10-08,Inactive
+93TY,Trends New Delhi,Smart,North,New Delhi,Delhi,9400,2017-12-19,Active
+FKHM,Trends Nagpur,Digital,North,Nagpur,Maharashtra,13228,2015-07-28,Active
+A1WJ,Digital Coimbatore,Digital,West,Coimbatore,Tamil Nadu,23379,2015-02-09,Active
+T4UF,Fresh Nagpur,Smart,West,Nagpur,Maharashtra,15101,2019-02-02,Active
+ID25,Digital Bangalore,Fresh,North,Bangalore,Karnataka,12757,2016-10-27,Active
+0L72,Fresh Chennai,Trends,West,Chennai,Tamil Nadu,10216,2023-10-31,Active
+I3QK,Fresh Chennai,Fresh,South,Chennai,Tamil Nadu,5775,2022-05-27,Active
+58KX,Digital Coimbatore,Trends,South,Coimbatore,Tamil Nadu,5904,2016-04-17,Inactive
+BVM2,Digital Vadodara,Smart,South,Vadodara,Gujarat,17622,2021-06-19,Active
+PS3Y,Fresh Bangalore,Trends,North,Bangalore,Karnataka,19132,2015-10-14,Inactive
+4ZKL,Digital New Delhi,Trends,North,New Delhi,Delhi,18185,2022-10-26,Inactive
+P7Y6,Trends New Delhi,Digital,West,New Delhi,Delhi,22954,2015-01-02,Inactive
+2VLP,Fresh Bangalore,Digital,South,Bangalore,Karnataka,29115,2016-11-26,Active
+WM31,Trends Hubli,Fresh,North,Hubli,Karnataka,11525,2016-08-26,Active
+W1Q5,Fresh Mumbai,Digital,South,Mumbai,Maharashtra,21199,2019-06-25,Active
+A11D,Digital Vadodara,Fresh,North,Vadodara,Gujarat,10763,2022-10-21,Inactive
+7EEQ,Trends Nagpur,Digital,West,Nagpur,Maharashtra,25075,2023-01-25,Inactive
+0RJI,Trends New Delhi,Digital,West,New Delhi,Delhi,25537,2017-09-06,Inactive
+KJLT,Fresh Chennai,Fresh,North,Chennai,Tamil Nadu,12577,2019-04-18,Active
+OTOH,Digital Ahmedabad,Digital,South,Ahmedabad,Gujarat,24139,2022-10-19,Active
+AM14,Digital New Delhi,Fresh,South,New Delhi,Delhi,20998,2017-06-17,Inactive
+NY20,Digital Coimbatore,Fresh,West,Coimbatore,Tamil Nadu,25390,2020-12-27,Active
+XDP5,Fresh Madurai,Smart,North,Madurai,Tamil Nadu,13524,2019-04-02,Inactive
+M5K8,Digital Surat,Trends,South,Surat,Gujarat,7683,2020-04-10,Active
