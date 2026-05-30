@@ -223,6 +223,7 @@ Tabel fakta merupakan tabel utama dalam data warehouse yang digunakan untuk meny
 - `fact_sales`
 - `fact_inventory`
 - `fact_logistics`
+- `fact_promotion`
 - `fact_seasonal_planning`
 
 ----
@@ -259,7 +260,7 @@ Pada tahap ini, data disimpan ke dalam dua kelompok utama, yaitu <b>data warehou
 
 📦 Data Warehouse:
 - Tabel dimensi (`dim_date`, `dim_product`, `dim_customer`, `dim_site`, `dim_promotion`)
-- Tabel fakta (`fact_sales`, `fact_inventory`, `fact_logistics`, `fact_seasonal_planning`)
+- Tabel fakta (`fact_sales`, `fact_inventory`, `fact_logistics`, `fact_promotion`,`fact_seasonal_planning`)
 
 
 
@@ -293,7 +294,8 @@ Pendekatan ini dipilih karena lebih sederhana, mudah dipahami, dan mendukung pro
 Digunakan untuk analisis penjualan seperti revenue, produk terjual, diskon, return, dan profit.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e97b2baa-2bd2-46e1-b89c-4a5eb6d1d492" width="75%"/>
+ <img width="75%" alt="sales" src="https://github.com/user-attachments/assets/0ca37e88-727a-4ddc-b0af-3333bc2a8a32" />
+
 </p>
 
 ---
@@ -302,7 +304,8 @@ Digunakan untuk analisis penjualan seperti revenue, produk terjual, diskon, retu
 Digunakan untuk monitoring stok barang, inventory cabang, dan proses restock.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9321dbcb-656d-4c5a-a81f-01657559ee28" width="75%"/>
+<img width="75%" alt="inventory" src="https://github.com/user-attachments/assets/2b1046cd-e773-4153-8c11-47b016159550" />
+
 </p>
 
 ---
@@ -311,7 +314,8 @@ Digunakan untuk monitoring stok barang, inventory cabang, dan proses restock.
 Digunakan untuk monitoring distribusi dan aktivitas pengiriman barang.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cf4507bb-8003-44c1-b72a-95a82a3ede81" width="75%"/>
+<img width="75%" alt="logistic" src="https://github.com/user-attachments/assets/7943a811-099b-4984-b60c-e1bb391a0a27" />
+
 </p>
 
 ---
@@ -320,9 +324,18 @@ Digunakan untuk monitoring distribusi dan aktivitas pengiriman barang.
 Digunakan untuk forecasting penjualan dan analisis seasonal planning bisnis.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8eaefbf2-9d2d-4d27-a125-188344fdd4f0" width="75%"/>
+<img width="75%"alt="seasonal" src="https://github.com/user-attachments/assets/cb427585-8c7d-49fa-b354-48d07544a08f" />
+
 </p>
 
+### 5️⃣ Star Schema Fact Promotion
+Digunakan untuk analisis program promosi berdasarkan produk, cabang, periode promosi, jenis diskon, dan nilai diskon.
+
+<p align="center">
+  <img width="75%" alt="WhatsApp Image 2026-05-30 at 21 30 40" src="https://github.com/user-attachments/assets/645aef54-6ff6-426f-8696-b0bf7359a4d4" />
+
+  <img src=idth="75%"/>
+</p>
 
 ---
 
